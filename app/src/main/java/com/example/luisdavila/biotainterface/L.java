@@ -9,7 +9,7 @@ public class L {
     if(BuildConfig.DEBUG && !SHUT_UP)
         Log.d(">==< SimpleAccessory >==<",String.valueOf(o));
     }
-    public static void (String s, Object ... args){
+    public static void d(String s, Object ... args){
         if (BuildConfig.DEBUG && !SHUT_UP)
             Log.d(">==< SimpleAccessory >==<",String.format(s,args));
     }
